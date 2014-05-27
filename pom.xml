@@ -66,21 +66,7 @@
 	</build>
 	
 	<profiles>
-		<profile>
-			<id>dev</id>
-			<properties>
-				<monitor.Url>http://localhost:11006/upbc-monitor/</monitor.Url>
-			</properties>
-		</profile>
-		<profile>
-			<id>stg</id>
-			<properties>
-				<monitor.Url>http://monitor.upbc.intranet/upbc-monitor/</monitor.Url>
-			</properties>
-            <activation>
-				<activeByDefault>true</activeByDefault>
-			</activation>
-		</profile>
+	
 		<profile>
                     <id>windows</id>
                     <activation>
